@@ -21,6 +21,41 @@
     <!-- Navbar -->
     <div class="navbar-fixed">
         <nav>
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="#!" class="brand-logo">Rent-A-Car</a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li>
+                            <a href="#home">Home</a>
+                        </li>
+                        <li>
+                            <a href="#about-us">Over ons</a>
+                        </li>
+                        <li>
+                            <a href="#rent-a-car">Auto huren</a>
+                        </li>
+                        <li>
+                            <a href="#rent-a-van">Busje huren</a>
+                        </li>
+                        <li>
+                            <a href="#about-us">Contact</a>
+                        </li>
+                        <li>
+                            <a href="#signin">Inloggen</a>
+                        </li>
+                        <li>
+                            <a href="#signin">Registreren</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+    <!-- <div class="navbar-fixed">
+        <nav>
             <div class="nav-wrapper">
                 <a href="#" class="brand-logo"><img src="img/logo.png" onmouseover="this.src='img/hover-logo.png';" onmouseout="this.src='img/logo.png';" alt=""></a>
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
@@ -37,4 +72,4 @@
                     </ul>
             </div>
         </nav>
-    </div>
+    </div> -->
