@@ -142,6 +142,49 @@ include("includes/header.php");
     </div>
 </section>
 
+<!-- Section: Contact -->
+<section id="contact" class="section section-contact scrollspy">
+    <div class="container">
+        <h4 class="center heading-title">Contact</h4>
+        <div class="row">
+            <div class="col s12 m6">
+                <div class="card-panel center grey lighten-4">
+                    <i class="material-icons">email</i>
+                    <h5>Neem Contact Met Ons Op</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Cupiditate ea rem nisi nihil odio doloribus harum numquam, dicta odit a.</p>
+                </div>
+                <ul class="collection with-header">
+                    <li class="collection-header">
+                        <h4>Pick-up point</h4>
+                    </li>
+                    <li class="collection-item">Rent-A-Car</li>
+                    <li class="collection-item" style="display: flex; align-items: center;"><i class="material-icons" style="margin-right: 10px">location_on</i>Lindelaan 1200, Almere</li>
+                    <li class="collection-item" style="display: flex; align-items: center;"><i class="material-icons" style="margin-right: 10px">phone</i>06-2222-22-22</li>
+                </ul>
+            </div>
+            <div class="col s12 m6">
+                <div class="card-panel grey lighten-3">
+                    <h5>Stuur ons een bericht</h5>
+                    <div class="input-field">
+                        <input type="text" placeholder="Naam">
+                    </div>
+                    <div class="input-field">
+                        <input type="text" placeholder="Email">
+                    </div>
+                    <div class="input-field">
+                        <input type="text" placeholder="Telefoonnumer">
+                    </div>
+                    <div class="input-field">
+                        <textarea class="materialize-textarea" placeholder="Type een bericht"></textarea>
+                    </div>
+                    <input class="btn" type="submit" value="Verzenden">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 <?php
 include("includes/footer.php");
