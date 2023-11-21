@@ -17,7 +17,7 @@ include("includes/header.php");
 </section>
 
 <!-- Section: About -->
-<section id="about" class="section section-about scrollspy">
+<section class="section section-about scrollspy">
     <div class="container">
         <h4 class="center">
             <span>Over</span> Ons
