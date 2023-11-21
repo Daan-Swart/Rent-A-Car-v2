@@ -22,6 +22,7 @@
 
 .btn{
     background-color: var(--btn-color);
+    border-radius: 10px;
 }
 
 .btn:hover{
@@ -30,6 +31,10 @@
 
 .section h4 span{
     color: var(--main-color);
+}
+
+.section h4 {
+    margin-bottom: 30px;
 }
 
 .material-icons{
@@ -86,6 +91,22 @@ nav ul a:hover {
 .slider .btn{
     margin-top: 15px;
 }
+
+/* SECTION: About*/
+.section-about{
+    background-color: #eeeff1;
+}
+
+.section-about .row span {
+    font-weight: 500;
+    color: var(--main-color);
+    text-transform: uppercase;
+}
+
+.section-about p {
+    margin: 0.5rem 0 1.4rem;
+}
+
 
 /* SECTION: Cars*/
 
