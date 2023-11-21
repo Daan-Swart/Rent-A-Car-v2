@@ -32,6 +32,17 @@
     color: var(--main-color);
 }
 
+.material-icons{
+    color: var(--main-color);
+}
+
+.card a {
+    color: var(--main-color) !important;
+}
+
+.card a:hover {
+    text-shadow: 0.5px 0.5px 8px var(--main-color)
+}
 
 /* HEADER */
 /* Nav */
@@ -43,6 +54,11 @@ nav {
     color: var(--text-color) !important;
     font-weight: 500;
 }
+
+nav ul a:hover {
+    background-color: var(--main-color);
+}
+
 @media only screen and (max-width: 1340px) {
     .hide-on-med-and-down {
         display: none;
@@ -72,10 +88,6 @@ nav {
 }
 
 /* SECTION: Cars*/
-
-.section-cars {
-    background-color: #eeeff1;
-}
 
 .section-cars img{
     height: 182px;
@@ -111,6 +123,10 @@ nav {
 
 /* SECTION: Vans*/
 
+.section-vans{
+    background-color: #eeeff1;
+}
+
 .section-vans img {
     height: 182px;
     object-fit: cover;
@@ -141,5 +157,41 @@ nav {
     font-size: 0.8rem;
     font-weight: 500;
     color: var(--text-color);
+}
+
+/* SECTION: Contact*/
+
+::placeholder {
+    color: #bdbdbd;
+}
+
+.section-contact .btn {
+    color: #fff !important;
+    background-color: var(--btn-color);
+    border-radius: 0.5rem;
+    transition: 0.5s;
+}
+
+.section-contact .btn:hover {
+    background-color: var(--main-color);
+    color: #fff !important;
+}
+
+.input-field input[type]:not([readonly]),
+.input-field input[type]:focus:not([readonly]),
+.input-field textarea:not([readonly]),
+.input-field textarea:focus:not([readonly]) {
+    border-bottom: 1px solid rgb(181, 175, 175);
+    box-shadow: 0 1px 0 0 lightgray;
+}
+
+.input-field input:focus {
+    border-bottom: 1px solid var(--main-color) !important;
+    box-shadow: 0 1px 0 0 var(--main-color) !important;
+}
+
+.input-field textarea:focus {
+    border-bottom: 1px solid var(--main-color) !important;
+    box-shadow: 0 1px 0 0 var(--main-color) !important;
 }
 
