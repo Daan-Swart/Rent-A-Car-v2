@@ -33,7 +33,7 @@
                             <a href="about.php">Over ons</a>
                         </li>
                         <li>
-                            <a href="#cars.php">Auto huren</a>
+                            <a href="cars.php">Auto huren</a>
                         </li>
                         <li>
                             <a href="#rent-a-van">Busje huren</a>
