@@ -216,3 +216,17 @@ nav ul a:hover {
     box-shadow: 0 1px 0 0 var(--main-color) !important;
 }
 
+/* ABOUT.PHP */
+#about{
+    height: 87vh;   
+}
+#about .row span {
+    font-weight: 500;
+    color: var(--main-color);
+    text-transform: uppercase;
+}
+
+#about p {
+    margin: 0.5rem 0 1.4rem;
+}
+
