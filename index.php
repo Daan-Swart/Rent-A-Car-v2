@@ -41,7 +41,7 @@ include("includes/header.php");
 </section>
 
 <!-- Section: Cars-->
-<section id="cars" class="section section-cars scrollspy">
+<section class="section section-cars scrollspy">
     <div class="container">
         <div class="row">
             <h4 class="center">
