@@ -27,10 +27,10 @@
                     <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                     <ul class="right hide-on-med-and-down">
                         <li>
-                            <a href="#home">Home</a>
+                            <a href="index.php">Home</a>
                         </li>
                         <li>
-                            <a href="#about-us">Over ons</a>
+                            <a href="about.php">Over ons</a>
                         </li>
                         <li>
                             <a href="#rent-a-car">Auto huren</a>
