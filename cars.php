@@ -44,7 +44,7 @@ try {
                                 <h2><?php echo "€" . $auto['prijsPerDag'] ?><span> / per maand</span></h2>
                             </div>
                             <div class="card-action center">
-                                <a href="car.php">Bekijk beschikbaarheid</a>
+                                <a href="car.php?id=<?php echo $auto['id']?>">Bekijk beschikbaarheid</a>
                             </div>
                         </div>
                     </div>
