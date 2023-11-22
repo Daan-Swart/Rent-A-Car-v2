@@ -36,7 +36,7 @@ try {
                     <div class="col s12 m4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="img/<?php echo $auto['afbeelding'] ?>" alt="">
+                                <img src="img/uploaded/<?php echo $auto['afbeelding'] ?>" alt="">
                             </div>
                             <div class="card-content">
                                 <p><?php echo $auto['kenteken'] ?></p>

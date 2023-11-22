@@ -2,7 +2,7 @@
 include('../includes/dbcon.php');
 include('../includes/a_header.php');
 try {
-    $sql = 'SELECT * FROM voertuigen WHERE `verwijderd` = true;';
+    $sql = 'SELECT * FROM voertuigen WHERE `verwijderd` = true AND autoOfBus = "auto"';
     $stmt = $pdo->prepare($sql);
     $stmt->execute();
     $autos = $stmt->fetchAll();
@@ -24,11 +24,11 @@ try {
             ?>
                 <div class="box">
                     <div class="box-img">
-                        <img src="../img/uploaded/<?php echo $auto['image'] ?>" alt="">
+                        <img src="../img/uploaded/<?php echo $auto['afbeelding'] ?>" alt="">
                     </div>
                     <p>2017</p>
                     <h3><?php echo $auto['merk'] . " " . $auto['type'] ?></h3>
-                    <h2>€<?php echo $auto['prijs'] ?><span> / per maand</span></h2>
+                    <h2>€<?php echo $auto['prijsPerDag'] ?><span> / per maand</span></h2>
                     <a href="#" class="btn-admin"><i class='bx bxs-pencil'></i></a><a href="#" class="btn-admin"><i class='bx bxs-trash-alt'></i></a>
                 </div>
             <?php } ?>
