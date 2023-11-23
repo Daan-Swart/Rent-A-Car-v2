@@ -26,7 +26,7 @@ try {
         </h4>
         <div class="row">
             <div class="col m12 l6">
-                <img style="border-radius: 10px;" src="img/<?php echo $auto['afbeelding'] ?>" width="100%" alt="car">
+                <img style="border-radius: 10px;" src="img/uploaded/<?php echo $auto['afbeelding'] ?>" width="100%" alt="car">
             </div>
             <div class="col m12 l6">
                 <p id="kenteken"><?php echo $auto['kenteken'] ?></p>

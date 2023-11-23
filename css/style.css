@@ -49,6 +49,16 @@
     text-shadow: 0.5px 0.5px 8px var(--main-color)
 }
 
+.btn:focus,
+.btn-large:focus,
+.btn-small:focus,
+.btn-floating:focus{
+    background-color: var(--btn-color)
+}
+.btn:active{
+    background-color: var(--main-color);
+}
+
 /* HEADER */
 /* Nav */
 nav {
