@@ -48,19 +48,6 @@ try {
 
             </div>
         <?php } ?>
-
-        <!-- Modal -->
-        <div id="modal1" class="modal">
-            <div class="modal-content">
-                <h4>Waarschuwing</h4>
-                <p>Weet u zeker dat u deze auto wilt verwijderen</p>
-            </div>
-            <div class="modal-footer">
-                <a href="delete_cars.php" class="btn green">Ja</a>
-                <a href="cars.php" class="btn red">Nee</a>
-
-            </div>
-        </div>
 </section>
 
 
